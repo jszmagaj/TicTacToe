@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="sample.Controller">
+    <center>
+            <GridPane>
+               <children>
+                   <Button fx:id="button1" prefHeight="110" prefWidth="110" GridPane.columnIndex="1" GridPane.rowIndex="1" onAction="#keyPressed" style="-fx-font-size: 35; -fx-background-color: white; -fx-border-color: black"/>
+                   <Button fx:id="button2" prefHeight="110" prefWidth="110" GridPane.columnIndex="2" GridPane.rowIndex="1" onAction="#keyPressed" style="-fx-font-size: 35; -fx-background-color: white; -fx-border-color: black"/>
+                   <Button fx:id="button3" prefHeight="110" prefWidth="110" GridPane.columnIndex="3" GridPane.rowIndex="1" onAction="#keyPressed" style="-fx-font-size: 35; -fx-background-color: white; -fx-border-color: black"/>
+   
+                   <Button fx:id="button4" prefHeight="110" prefWidth="110" GridPane.columnIndex="1" GridPane.rowIndex="2" onAction="#keyPressed" style="-fx-font-size: 35; -fx-background-color: white; -fx-border-color: black"/>
+                   <Button fx:id="button5" prefHeight="110" prefWidth="110" GridPane.columnIndex="2" GridPane.rowIndex="2" onAction="#keyPressed" style="-fx-font-size: 35; -fx-background-color: white; -fx-border-color: black"/>
+                   <Button fx:id="button6" prefHeight="110" prefWidth="110" GridPane.columnIndex="3" GridPane.rowIndex="2" onAction="#keyPressed" style="-fx-font-size: 35; -fx-background-color: white; -fx-border-color: black"/>
+   
+                   <Button fx:id="button7" prefHeight="110" prefWidth="110" GridPane.columnIndex="1" GridPane.rowIndex="3" onAction="#keyPressed" style="-fx-font-size: 35; -fx-background-color: white; -fx-border-color: black"/>
+                   <Button fx:id="button8" prefHeight="110" prefWidth="110" GridPane.columnIndex="2" GridPane.rowIndex="3" onAction="#keyPressed" style="-fx-font-size: 35; -fx-background-color: white; -fx-border-color: black"/>
+                   <Button fx:id="button9" prefHeight="110" prefWidth="110" GridPane.columnIndex="3" GridPane.rowIndex="3" onAction="#keyPressed" style="-fx-font-size: 35; -fx-background-color: white; -fx-border-color: black"/>
+               </children>
+            </GridPane>
+    </center>
+    <bottom>
+      <VBox alignment="CENTER">
+         <children>
+              <Button fx:id="restart" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="80.0" text="RESTART" textAlignment="CENTER" onAction="#restart"/>
+         </children>
+      </VBox>
+    </bottom>
+
+</BorderPane>
